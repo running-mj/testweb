@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="UTF-8" />
+            <title>我的文档</title>
+            <!--引入外部样式-->
+            <link rel="stylesheet" href="">
+            <!--引入外部的js脚本-->
+            <script src=""></script>
+            <style>
+                p {
+                    color: red;
+                    font-size: 20px;
+                }
+            </style>
+        </head>
+        <body>
+        <!--
+        1.标签的结构
+            1.标签都是成对出现
+            2.标签都是小写的
+            3.标签一定要闭合
+        2.HTML标题的标签
+            作用：表示文章的标题
+            h1~h6
+        3.HTML段落
+            P:标签
+        4.HTML链接
+            a:标签
+            属性:href:
+        5.HTML图片
+            页面显示的图片
+            src =“图片路径” alt="提示。当图片不显示的时候，显示此文本"
+    -->
+        我的第一个页面
+        <h1>我是H1标签</h1>
+        <h2>我是H2标签</h2>
+        <h3>我是H3标签</h3>
+        <h4>我是H4标签</h4>
+        <h5>我是H5标签</h5>
+        <h6>我是H6标签</h6>
+        <p>这个是我学习的第六课</p>
+        <a href="https://www.baidu.com">百度</a>
+        <img src="go.PNG" alt="go语言"/>
+        <!--
+                1.写在注释里面的东西在页面上面看不到
+
+
+                2.样式
+                    style
+                    在style编写对应标签的样式
+                           p{
+                    color: red;
+                    font-size: 20px;
+                }
+                3.为标签提供更多配置的一种方式
+                href=""  格式： 属性名=""  name="value"
+                4.标签
+                    button：按钮
+                     br：换行
+                     hr：水平线
+                      div:容器
+
+
+
+        -->
+        <p title="我是文本">我是一样文本</p>
+        <!--<a href="http://wwww.baidu.com">百度</a>-->
+        <button>按钮</button>
+        <p>我是一行文本但是，<br/>我想两行显示</p>
+        <div>容器：为了为了样式更加的容易添加。证明一个组形式存在</div>
+        <!--
+
+          1.标签(着重标签)
+                b em i strong span
+                b：加粗效果 一般着重文本需要
+                em: 斜体效果 一般用于强调比较重要的内容
+                i: 斜体效果 一般用于强调不是很重要的内容
+                string: 加强效果 强调语气是最强烈的
+                span: 在一行文本中 添加特殊样式
+          2.H5新标签
+            video audio footer header
+        -->
+        <p>欢迎学习<b>web前端</b></p>
+        <p>欢迎学习<em>web前端</em></p>
+        <p>欢迎学习<strong>web前端</strong></p>
+        <p>欢迎学习<span>web前端</span></p>
+        <video width="200px" controls src=""></video>
+        <audio   controls autoplay src=""></audio>
+        </body>
+</html>
